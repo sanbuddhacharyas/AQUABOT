@@ -336,7 +336,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc; ../Drivers/STM32F1xx_HAL_Driver/Inc; ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy; ../Drivers/CMSIS/Device/ST/STM32F1xx/Include; ../Drivers/CMSIS/Include; ..\MDK-ARM</IncludePath>
+              <IncludePath>../Inc;    ../Drivers/STM32F1xx_HAL_Driver/Inc;    ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;    ../Drivers/CMSIS/Device/ST/STM32F1xx/Include;    ../Drivers/CMSIS/Include;    ..\MDK-ARM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -450,6 +450,16 @@
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f1xx_hal_spi_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_hal_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -479,6 +489,26 @@
               <FileName>MPU-9250.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\MPU-9250.h</FilePath>
+            </File>
+            <File>
+              <FileName>dwt_stm32_delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\dwt_stm32_delay.h</FilePath>
+            </File>
+            <File>
+              <FileName>dwt_stm32_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\dwt_stm32_delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>NRF24.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\NRF24.c</FilePath>
+            </File>
+            <File>
+              <FileName>NRF24.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\NRF24.h</FilePath>
             </File>
           </Files>
         </Group>

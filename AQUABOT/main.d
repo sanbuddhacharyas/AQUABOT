@@ -24,8 +24,12 @@ aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 aquabot\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 aquabot\main.o: ../Inc/STEPPER.h
 aquabot\main.o: ..\MDK-ARM\MPU-9250.h
+aquabot\main.o: ..\MDK-ARM\dwt_stm32_delay.h
+aquabot\main.o: ..\MDK-ARM\NRF24.h
+aquabot\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
